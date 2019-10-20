@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navSenin"
+            android:title="Senin" />
+        <item
+            android:id="@+id/navSelasa"
+            android:title="Selasa" />
+        <item
+            android:id="@+id/navRabu"
+            android:title="Rabu" />
+        <item
+            android:id="@+id/navKamis"
+            android:title="Kamis" />
+        <item
+            android:id="@+id/navJumat"
+            android:title="Jumat" />
+        <item
+            android:id="@+id/navId"
+            android:title="Identitas" />
+    </group>
+
+</menu>
